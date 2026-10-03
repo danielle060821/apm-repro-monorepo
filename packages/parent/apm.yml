@@ -1,0 +1,10 @@
+name: parent
+version: 1.0.0
+targets:
+  - copilot
+
+dependencies:
+  apm:
+    - git: https://github.com/danielle060821/apm-repro-monorepo
+      path: packages/child
+      ref: main
